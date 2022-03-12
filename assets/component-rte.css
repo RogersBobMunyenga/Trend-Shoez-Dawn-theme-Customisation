@@ -2,7 +2,6 @@
   clear: both;
   content: '';
   display: block;
-  border-bottom: 1px solid ;
 }
 
 .rte > p:first-child {

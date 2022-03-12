@@ -4,7 +4,7 @@
 
 .image-with-text .grid__item {
   position: relative;
-  border-bottom: 1px solid #415858; 
+  
 }
 
 @media screen and (min-width: 750px) {
@@ -89,6 +89,7 @@
   width: 100%;
   height: 100%;
   z-index: -1;
+  
 }
 
 .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item:after {
@@ -275,6 +276,7 @@
     var(--text-boxes-shadow-vertical-offset)
     var(--text-boxes-shadow-blur-radius)
     rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
+  
 }
 
 /* Added css starts here for horizontal line under hero image for trend shoez */

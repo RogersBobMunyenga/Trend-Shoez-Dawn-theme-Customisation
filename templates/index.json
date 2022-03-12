@@ -99,7 +99,7 @@
         "collection": "featured",
         "products_to_show": 2,
         "columns_desktop": 2,
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "show_view_all": false,
         "image_ratio": "adapt",
         "show_secondary_image": true,

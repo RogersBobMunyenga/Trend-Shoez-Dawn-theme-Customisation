@@ -4,6 +4,7 @@
 
 .image-with-text .grid__item {
   position: relative;
+  border-bottom: 1px solid #415858; 
 }
 
 @media screen and (min-width: 750px) {
@@ -275,6 +276,10 @@
     var(--text-boxes-shadow-blur-radius)
     rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
 }
+
+/* Added css starts here for horizontal line under hero image for trend shoez */
+
+
 
 @media screen and (min-width: 990px) {
   .image-with-text__content {

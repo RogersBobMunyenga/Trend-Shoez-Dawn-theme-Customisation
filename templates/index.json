@@ -164,58 +164,54 @@
         "heading": "",
         "heading_size": "h1",
         "desktop_layout": "left",
-        "mobile_layout": "collage",
+        "mobile_layout": "column",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "image_banner": {
-      "type": "image-banner",
+    "164707830419b102b3": {
+      "type": "image-with-text",
       "blocks": {
-        "heading": {
+        "16470783030c8f942e-0": {
           "type": "heading",
           "settings": {
-            "heading": "DESIGNED FOR THE FREEDOM TO WALK",
-            "heading_size": "large"
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
-        "text": {
+        "16470783030c8f942e-1": {
           "type": "text",
           "settings": {
-            "text": "Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
           }
         },
-        "button": {
-          "type": "buttons",
+        "16470783030c8f942e-2": {
+          "type": "button",
           "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "16470783030c8f942e-0",
+        "16470783030c8f942e-1",
+        "16470783030c8f942e-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Home-trend-shoes.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/jordan-blog2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "mobile_content_alignment": "left",
+        "padding_top": 8,
+        "padding_bottom": 36
       }
     },
     "16471247189e445d74": {
@@ -303,49 +299,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "164707830419b102b3": {
-      "type": "image-with-text",
-      "blocks": {
-        "16470783030c8f942e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "16470783030c8f942e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16470783030c8f942e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16470783030c8f942e-0",
-        "16470783030c8f942e-1",
-        "16470783030c8f942e-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -354,10 +307,9 @@
     "featured_collection",
     "1647124711b41c5d5a",
     "collage",
-    "image_banner",
+    "164707830419b102b3",
     "16471247189e445d74",
     "video",
-    "multicolumn",
-    "164707830419b102b3"
+    "multicolumn"
   ]
 }

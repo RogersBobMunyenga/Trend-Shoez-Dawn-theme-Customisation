@@ -6,9 +6,105 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1647128862e40cf3d9": {
+      "type": "rich-text",
+      "blocks": {
+        "1647128862652ff19e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GET HELP",
+            "heading_size": "h1"
+          }
+        },
+        "1647128862652ff19e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>What can we help you with ?<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1647128862652ff19e-0",
+        "1647128862652ff19e-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1647128877a372bbbd": {
+      "type": "rich-text",
+      "blocks": {
+        "16471288775a1a42c5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WHAT ARE TREND SHOEZ SHIPPING OPTIONS?",
+            "heading_size": "h1"
+          }
+        },
+        "16471288775a1a42c5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Please note, it’s taking us longer than usual to get orders out the door. But don’t worry—the estimated delivery date we provide at checkout reflects any known delays. You can check your order status and any updates to your estimated delivery date.<\/strong><\/p><p>During checkout, Members and guests can choose their preferred shipping option—we’ll provide an estimated delivery date for every item in your bag based on your shipping selection, the delivery address, and where the item(s) ship from. We offer the following shipping options:<\/p><p><strong>No Rush<\/strong>*<\/p><p>Free for signed-in Members$7 for guest orders<\/p><p><strong>Standard<\/strong><\/p><p>Free for signed-in Members$8 for guest orders<\/p><p><em><strong>Please note, expedited and express shipping may not be available for your order.<\/strong><\/em><\/p><p><strong>Expedited<\/strong><\/p><p>$5 for signed-in Members$15 for guest orders<\/p><p><strong>Express<\/strong><\/p><p>$15 for signed-in Members$25 for guest orders<\/p><p><strong>Store Pickup<\/strong><\/p><p>Free for all eligible orders. Just click “PICK UP” during checkout to see if the items in your bag are eligible for store or curb side pickup at a store near you.<\/p><p>For the continued safety and well-being of our teammates and customers, some stores are temporarily closed. Stores that are open may be operating with limited hours and services. Please see our store locator for the latest information, including if stores near you are offering store pickup.<\/p><p>Members get free standard shipping (and discounted expedited shipping) on every order—just sign in during checkout and you’ll automatically get free shipping.<\/p>"
+          }
+        },
+        "16471288775a1a42c5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "BECOME A MEMBER",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16471288775a1a42c5-0",
+        "16471288775a1a42c5-1",
+        "16471288775a1a42c5-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1647128887002949a5": {
+      "type": "rich-text",
+      "blocks": {
+        "16471288875fd0a6a1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ADDITIONAL INFORMATION",
+            "heading_size": "h1"
+          }
+        },
+        "16471288875fd0a6a1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We process and deliver orders Monday-Friday (excluding holidays).<\/p><p>Saturday and\/or Sunday deliveries may be available for some orders.<\/p><p><br\/>We use a variety of shipping carriers to make sure we deliver your order as soon as possible.<\/p><p><br\/>If you order multiple items, you may get multiple deliveries.<\/p><p>We’ll send you a shipping confirmation email for each shipment, so you’ll know exactly what to expect and when to expect it.<\/p><p><br\/>The estimated delivery date in checkout is based on your delivery address and the shipping option you’ve selected.<\/p><p><br\/>No Rush shipping is not available for select products, orders shipping to Hawaii or Alaska, or for SNKRS orders.<\/p><p><br\/>Nike By You and Converse Custom orders arrive in two to six weeks—standard and expedited shipping times do not apply.<\/p><p><br\/>Orders to APO and FPO addresses ship free via standard USPS Military Mail and arrive between 30-45 days.<\/p><p><br\/>We do not offer international shipping and are unable to ship to US territories, PO boxes, re-shippers, or package forwarding services.<\/p><p><br\/><strong>FAQs<\/strong><\/p><p><br\/>*What is No Rush shipping?<\/p><p><br\/><strong>No Rush shipping means exactly that: no rush.<\/strong><\/p><p>We decided to take the benefits of ground-only shipping and make it available for anyone.<\/p><p><strong>Why?<\/strong><\/p><p>Because, on average, ground-only shipping is less carbon-intensive than air freight shipping.<\/p><p>Plus, No Rush gives our teams a little extra time to prepare your order and get it out the door.<\/p><p>We’ll still provide an estimated delivery date during checkout, so you’ll know when to expect your order.<\/p><p>On rare occasions, there may be some operational overrides that cause your package to ship on a plane, but we’ll do our best to get your order shipped ground.<br\/><br\/><strong>Which carrier is delivering my order?<\/strong><\/p><p><br\/>When you track your package(s), you can see which carrier is delivering your shipment. Please note, if you order multiple items, you may have multiple deliveries and multiple carriers.<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16471288875fd0a6a1-0",
+        "16471288875fd0a6a1-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1647128862e40cf3d9",
+    "1647128877a372bbbd",
+    "1647128887002949a5"
   ]
 }

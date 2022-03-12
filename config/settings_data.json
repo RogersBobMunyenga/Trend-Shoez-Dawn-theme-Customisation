@@ -12,8 +12,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "text": "FREE SHIPPING WORLDWIDE ON ORDERS ABOVE $200",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
@@ -28,7 +28,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
+          "logo": "shopify:\/\/shop_images\/trend-shoes-l0go.png",
+          "logo_width": 250,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,

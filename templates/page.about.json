@@ -87,19 +87,11 @@
             "text": "<p><strong>A TEAM THAT'S EMPOWERED, DIVERSE AND INCLUSIVE<\/strong><\/p><p>A love of shoes unites us. Learn more about our team.<\/p>",
             "text_style": "body"
           }
-        },
-        "1647132234a26f39e8-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "1647132234a26f39e8-0",
-        "1647132234a26f39e8-1",
-        "1647132234a26f39e8-2"
+        "1647132234a26f39e8-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/team-hands-in.jpg",
@@ -146,6 +138,7 @@
         "16471322524250bffd-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/two-people-holds-their-hands-above-their-heads.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",

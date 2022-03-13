@@ -30,6 +30,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -40,6 +41,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_dynamic_checkout": true
           }
         },
         "description": {
@@ -51,33 +53,42 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Materials",
-            "icon": "leather"
+            "icon": "leather",
+            "content": "<p>Made with at least 20% recycled material by weight. Synthetic suede and other materials blend vintage running vibes with fresh details. Nike Air cushioning delivers a feel-good forecast for the day.<\/p>",
+            "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping & Returns",
-            "icon": "truck"
+            "icon": "truck",
+            "content": "<p>Free standard shipping and free 60-day returns for Members.<a href=\"https:\/\/www.nike.com\/help\/a\/free-shipping\"><span style=\"text-decoration:underline\">Learn more<\/span><\/a>.<a href=\"\/pages\/returns\" target=\"_blank\" title=\"Returns\"><span style=\"text-decoration:underline\">Return policy exclusions apply<\/span><\/a>.<\/p><p><br\/><span style=\"text-decoration:underline\">Pick up available at our stores.<\/span><\/p>",
+            "page": ""
           }
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Dimensions",
-            "icon": "ruler"
+            "icon": "ruler",
+            "content": "",
+            "page": ""
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care Instructions",
-            "icon": "heart"
+            "icon": "heart",
+            "content": "",
+            "page": ""
           }
         },
         "share": {
           "type": "share",
           "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -97,7 +108,13 @@
         "share"
       ],
       "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
         "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
         "padding_bottom": 12
       }
     },
@@ -107,11 +124,15 @@
         "image-with-text-0": {
           "type": "heading",
           "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
           }
         }
       },
@@ -121,8 +142,15 @@
       ],
       "settings": {
         "height": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
-        "color_scheme": "background-2"
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn": {
@@ -132,14 +160,18 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "link_label": ""
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "column-1": {
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "link_label": ""
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
@@ -149,15 +181,34 @@
       ],
       "settings": {
         "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
         "background_style": "none",
-        "button_label": ""
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "heading": "You may also like",
+        "heading_size": "h1",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
         "padding_bottom": 28
       }
     }

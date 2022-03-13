@@ -159,19 +159,11 @@
             "text": "<p><strong>PROTECTING THE FUTURE OF SHOES<\/strong><\/p><p>We believe in fair sustainable future--one where everyone thrives on a healthy planet and level playing field. Learn how we are using the power of shoes to move the world forward.<\/p>",
             "text_style": "body"
           }
-        },
-        "1647132267a3a18314-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "1647132267a3a18314-0",
-        "1647132267a3a18314-1",
-        "1647132267a3a18314-2"
+        "1647132267a3a18314-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/nike-just-do-it-1.jpg",

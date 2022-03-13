@@ -77,14 +77,14 @@
         "1647132234a26f39e8-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "OUR TEAM",
             "heading_size": "h1"
           }
         },
         "1647132234a26f39e8-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p><strong>A TEAM THAT'S EMPOWERED, DIVERSE AND INCLUSIVE<\/strong><\/p><p>A love of shoes unites us. Learn more about our team.<\/p>",
             "text_style": "body"
           }
         },
@@ -102,9 +102,10 @@
         "1647132234a26f39e8-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/team-hands-in.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
